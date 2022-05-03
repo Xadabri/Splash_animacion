@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageButton
+                android:id="@+id/chaqueta"
+                android:layout_width="390dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:backgroundTint="#03a9f4"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/chaqueta" />
+            <ImageButton
+                android:id="@+id/dragon"
+                android:layout_width="390dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:backgroundTint="#ffd600"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/dragon" />
+            <ImageButton
+                android:id="@+id/fantasma"
+                android:layout_width="390dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:backgroundTint="#dd2c00"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/fantasma" />
+            <ImageButton
+                android:id="@+id/gundam"
+                android:layout_width="390dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:backgroundTint="#00bfa5"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/gundam" />
+            <ImageButton
+                android:id="@+id/ninja"
+                android:layout_width="390dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:backgroundTint="#b2ff59"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/ninja" />
+            <ImageButton
+                android:id="@+id/pokemon"
+                android:layout_width="390dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:backgroundTint="#d50000"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/pokemon" />
+
+            <ImageButton
+                android:id="@+id/rock"
+                android:layout_width="390dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:backgroundTint="#bdbdbd"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/rock" />
+
+            <ImageButton
+                android:id="@+id/sakura"
+                android:layout_width="390dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:backgroundTint="#f06292"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/sakura" />
+            <ImageButton
+                android:id="@+id/torii"
+                android:layout_width="390dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:backgroundTint="#9575cd"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/torii" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"/>
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
